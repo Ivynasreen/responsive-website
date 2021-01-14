@@ -161,6 +161,9 @@ header {
     width: 100%;
     margin-top: 1em;
 }
+footer {
+    margin-top: 6em;
+}
 @media (max-width: 992px){
     .cart-category {
         display: block;
