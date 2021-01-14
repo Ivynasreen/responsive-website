@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif , 'Segoe UI', Tahoma;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #363958;
+    line-height: 1em;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+}
+h4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 24px;
+    color: #363958;
+    font-weight: bold;
+}
+p {
+    font-size: 15px;
+    color: #3E3E3E;
+    font-weight: 400;
+}
+.logo-area img {
+    width: 290px;
+    height: 30px;
+}
+header {
+    background-color: #FFFBF0;
+    
+}
+.top-section {
+    padding-top: 30px;
+}
+.menu-area  a {
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+/***Start Area***/
+.start-area {
+    padding-top: 20px;
+}
+.col img {
+    width: 100%;
+}
+.start-text {
+   padding-top: 4em;
+}
+.start-image {
+    padding-right: 6em;
+}
+.color-outline {
+    color: #FABE4C;
+}
+.button {
+    background-image: linear-gradient(#A3BC43, #A4BC46, #85A019) ;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 25px;
+    text-transform: uppercase;
+}
+.start-text img {
+    width: 30px;
+    padding-right: 8px;
+}
+.start-image img {
+    width: 100%;
+}
+/***Woman Jacket Area***/
+.woman-jacket-area {
+    margin-top: 6em;
+}
+.card {
+    border: white;
+    border-radius: 15px;
+}
+.card img{
+    width: 334px;
+    height: 327px;
+    padding-top: 2em;
+    border-radius: 18px;
+    background-color: #F1F1F1;
+    border: none;
+}
+.card-image {
+    background-color: #F1F1F1;
+}
+/***Man Jacket Area***/
+.man-jacket-area {
+    margin-top: 6em;
+}
+.card-footer img {
+    width: 30px;
+}
+.jacket-footer img {
+    width: 20px;
+}
+.img-thumbnail {
+    margin: auto;
+    padding: 2em;
+}
+/***Sale Area***/
+.sale-area {
+    margin-top: 6em;
+}
+.ratings .filled {
+    color: orange;
+}
+.ratings .unfilled {
+    color: gray;
+}
+.outline-color {
+    color: yellowgreen;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cart-section {
+    margin-top: 6em;
+}
+#cart-icon img {
+    width: 78px;
+    height: 82px;
+    margin-right: 20px;
+}
+.cart-area {
+    display: grid;
+    grid-template-columns: (2,1fr);
+}
+.cart-category {
+    display: flex;
+    align-items: center;
+
+}
+#cart-text {
+    flex-direction: column;
+}
+.fit {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.exchange {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.seller {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.cart-picture img{
+    width: 100%;
+    margin-top: 1em;
+}
+@media (max-width: 992px){
+    .cart-category {
+        display: block;
+        text-align: center;
+    }
+}
